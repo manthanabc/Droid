@@ -2,6 +2,7 @@
 currelty droido is an music player that searches music on youtube and plays on your pc without leaving the terminal with all sorts of cool features
 ## installing -
 #### first install all dependecies
+
 `pip install lyricsgenius`
 `pip install dotenv      `
 `pip install vlc`
