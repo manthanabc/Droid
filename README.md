@@ -14,14 +14,14 @@ currelty droido is an music player that searches music on youtube and plays on y
 
 #### setting up the .env file
 
-- Get the youtube api key from [goole dev console][api]
+- Get the youtube api key from [google console](https://console.developers.google.com/)
 and create a youtube api key and on first line on your .env file past it (past the key in place on 'your api key')
 
    `YOUTUBE_API_KEY='your api key'`
    
 
 - for second key head over to lyrics gen site [optional] 
-get the api key from [lyrics gen][u]
+get the api key from [lyrics gen](https://genius.com/developers)
  `LYRICSGENIUS_API_KEY='your api key'`
 
 and thats it now you can use all functions droido has to offer
@@ -35,6 +35,7 @@ then enter your music and enjoy
 - use `-download` flag to download before playing
 - use `-nolocal` flag to research and play
 - use `-video` flag to play video with song
+- use `help` to get help in terminal
 
 #### after playing
 
@@ -45,6 +46,3 @@ then enter your music and enjoy
 - use `s` to skip
 - use `jp n` to jump to nth song(eg jp 2)
 - use `q` to exit
-[1]: https://console.developers.google.com
-[api]: https://console.developers.google.com/ "api"
-[u]: https://genius.com/developers
