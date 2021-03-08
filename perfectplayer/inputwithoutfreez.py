@@ -1,6 +1,4 @@
 import time
-import curses
-
 
 def get_number(seconds):
     def _get_number(stdscr):

@@ -5,7 +5,6 @@ def Read():
 	if keyboard.is_pressed('a'):
 		return 'read'
 
-
 	if keyboard.is_pressed('d'):
 		return 'read'
 
